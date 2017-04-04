@@ -13,6 +13,8 @@ class TestAdditions(unittest.TestCase):
 		self.assertEqual(calculateAdditions("1+1"),2)
 	def test_negative_one_plus_negative_one(self):
 		self.assertEqual(calculateAdditions("-1 + -1"),-2)
+	def test_ten_plus_ten(self):
+		self.assertEqual(calculateAdditions("10 + 10"),20)
 
 
 
