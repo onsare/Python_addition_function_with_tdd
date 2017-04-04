@@ -15,6 +15,8 @@ class TestAdditions(unittest.TestCase):
 		self.assertEqual(calculateAdditions("-1 + -1"),-2)
 	def test_ten_plus_ten(self):
 		self.assertEqual(calculateAdditions("10 + 10"),20)
+	def test_thousadnd_plus_negative_one(self):
+		self.assertEqual(calculateAdditions("1000 + -1"),999)
 
 
 
